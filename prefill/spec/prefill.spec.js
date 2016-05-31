@@ -19,9 +19,11 @@ describe('prefill', function(){
     });
 
     it('should work if v is undefined', function(){
-        expect(prefill(undefined, 2)).toEqual([undefined, undefined]);
+        expect(prefill(2)).toEqual([undefined, undefined]);
     });
 });
+
+
 
 /*
 prefill(3,1) #=>[1,1,1]
